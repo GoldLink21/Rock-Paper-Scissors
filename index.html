@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="index.js"></script>
+
+    
+</head>
+
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <button class="player" id="rock">Rock</button>
+    <button class="player" id="paper">Paper</button>
+    <button class="player" id="scissors">Scissors</button>
+    Opponent chose <img id="opponent"></img>
+    <p id="results"></p>
+    <script>
+        var rock=0,paper=1,scissors=2;
+        const rock_button = document.getElementById("rock");
+        const paper_button = document.getElementById("paper");
+        const scissors_button = document.getElementById("scissors");
+        var end = -1;
+        let hasClicked=false;
+
+        rock_button.onclick = function(){calculate(rock);}
+
+        paper_button.onclick=function(){calculate(paper);}
+
+        scissors_button.onclick=function(){calculate(scissors);}   
+    </script>
+</body>
+</html>

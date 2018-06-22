@@ -1,0 +1,36 @@
+button{
+    color:red;
+    font-size: 19px;
+}
+h1{
+    color:firebrick;
+}
+.player{
+    width:200px;
+    height:200px;
+    border: 1px solid grey;
+}
+
+#rock{
+    background-image:url(rock.png);
+}
+#paper{
+    background-image: url("paper-new.png")
+}
+#scissors{
+    background-image: url("scissors-new.png");
+}
+
+#opponent{
+    position: relative;
+    width:200px;
+    height:200px;
+    background-image: unset;
+    top:95px;
+    border: 1px solid grey;
+}
+
+body{
+    font-family:'Times New Roman';
+    font-size: 25px;
+}
